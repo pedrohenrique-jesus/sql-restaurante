@@ -99,3 +99,22 @@ O arquivo `agregacao.sql` contém consultas voltadas para análise de dados e ge
 - Funções de agregação (COUNT, AVG, MIN, MAX)
 - GROUP BY e HAVING
 - Funções de janela (ROW_NUMBER)
+
+### 🔗 Consultas com Múltiplas Tabelas
+
+O arquivo `multiplas_tabelas.sql` apresenta consultas relacionais utilizando JOINs para combinar informações de diferentes tabelas do banco de dados.
+
+#### Consultas realizadas:
+- Produtos e seus ingredientes
+- Pedidos com informações de clientes
+- Pedidos com clientes e funcionários responsáveis
+- Detalhes completos do pedido (cliente, funcionário, produto e preço)
+- Clientes com pedidos pendentes
+- Identificação de clientes sem pedidos
+- Total de pedidos por cliente
+- Cálculo do valor total de cada pedido
+
+#### Conceitos aplicados:
+- INNER JOIN e LEFT JOIN
+- Agregações com JOIN
+- Relacionamentos entre múltiplas tabelas
