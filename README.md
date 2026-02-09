@@ -81,3 +81,21 @@ O arquivo `condicional.sql` contém consultas que utilizam lógica condicional p
 - Operadores lógicos
 - Controle de valores NULL
 - Lógica condicional em consultas SQL
+
+### 📊 Consultas de Agregação
+
+O arquivo `agregacao.sql` contém consultas voltadas para análise de dados e geração de métricas do restaurante.
+
+#### Análises realizadas:
+- Quantidade total de pedidos
+- Número de clientes únicos
+- Média, mínimo e máximo dos preços dos produtos
+- Ranking dos produtos mais caros
+- Média de preços por categoria
+- Quantidade de produtos por fornecedor
+- Identificação de clientes com apenas um pedido
+
+#### Conceitos aplicados:
+- Funções de agregação (COUNT, AVG, MIN, MAX)
+- GROUP BY e HAVING
+- Funções de janela (ROW_NUMBER)
