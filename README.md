@@ -66,3 +66,18 @@ O arquivo `consultas.sql` contém consultas SQL para extração de informações
 - Funções SQL
 - ORDER BY, LIMIT e OFFSET
 - LIKE para busca textual
+
+### ⚙️ Consultas Condicionais
+
+O arquivo `condicional.sql` contém consultas que utilizam lógica condicional para filtragem e tratamento de dados.
+
+#### Operações realizadas:
+- Filtros utilizando AND, OR, IN e BETWEEN
+- Busca textual com LIKE
+- Tratamento de valores nulos com IS NULL e IFNULL
+- Criação de colunas calculadas utilizando CASE
+
+#### Conceitos aplicados:
+- Operadores lógicos
+- Controle de valores NULL
+- Lógica condicional em consultas SQL
