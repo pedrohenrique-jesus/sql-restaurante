@@ -118,3 +118,35 @@ O arquivo `multiplas_tabelas.sql` apresenta consultas relacionais utilizando JOI
 - INNER JOIN e LEFT JOIN
 - Agregações com JOIN
 - Relacionamentos entre múltiplas tabelas
+
+### 🚀 Consultas Avançadas em SQL
+
+O arquivo `consultas_avancadas.sql` apresenta recursos avançados do MySQL aplicados a um cenário real de restaurante, com foco em reutilização de consultas, abstração de lógica e análise de desempenho.
+
+#### Recursos implementados:
+
+- **Views**
+  - Criação da view `resumo_pedido` para consolidar informações de pedidos, clientes, funcionários e produtos
+  - Atualização da view para incluir o cálculo do valor total do pedido
+  - Utilização da view como base para relatórios simplificados
+
+- **Agregações Avançadas**
+  - Cálculo do valor total de cada pedido (`quantidade × preço`)
+  - Comparação de valores individuais com a média geral de pedidos
+
+- **Funções SQL**
+  - Função `BuscaIngredientesProduto` para retornar os ingredientes de um produto específico
+  - Função `mediaPedido` para classificar o desempenho de um pedido como:
+    - *Abaixo da Média*
+    - *Na Média*
+    - *Acima da Média*
+
+- **Análise de Performance**
+  - Uso do comando `EXPLAIN` para compreender o plano de execução de consultas baseadas em views
+
+#### Conceitos aplicados:
+- Views e reutilização de consultas
+- Funções definidas pelo usuário (UDF)
+- Lógica condicional (`IF / ELSE`)
+- Agregações com `AVG`, `SUM` e `COALESCE`
+- Abstração e organização de regras de negócio no banco de dados
