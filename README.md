@@ -47,3 +47,22 @@ O arquivo `manipulacao.sql` é responsável por popular o banco de dados e simul
 - INSERT, UPDATE e DELETE
 - Controle de segurança com `sql_safe_updates`
 - Simulação de regras de negócio
+
+### 🔍 Consultas Básicas
+
+O arquivo `consultas.sql` contém consultas SQL para extração de informações do banco de dados do restaurante.
+
+#### Exemplos de consultas realizadas:
+- Produtos com preço superior a um determinado valor
+- Clientes filtrados por ano de nascimento
+- Busca de ingredientes por palavra-chave
+- Ordenação de produtos por categoria e preço
+- Seleção dos produtos mais caros
+- Simulação de promoção com limitação de resultados
+- Criação de backup de tabela utilizando SELECT
+
+#### Conceitos aplicados:
+- SELECT e WHERE
+- Funções SQL
+- ORDER BY, LIMIT e OFFSET
+- LIKE para busca textual
